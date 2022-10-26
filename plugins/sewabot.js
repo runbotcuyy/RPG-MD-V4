@@ -1,14 +1,14 @@
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let url = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+let url = 'https://telegra.ph/file/df3dca9e1a9364db3abce.jpg'
 let text = `━━ꕥ〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕ꕥ━⬣
 
 ┏━ꕥ〔 𝙷𝙰𝚁𝙶𝙰 𝚂𝙴𝚆𝙰 〕
 ┃
-┃✾ 15 ʜᴀʀɪ 3,5ᴋ / ɢʀᴏᴜᴘ
-┃✾ 30 ʜᴀʀɪ 7ᴋ / ɢʀᴏᴜᴘ
-┃✾ 45 ʜᴀʀɪ 10,5ᴋ / ɢʀᴏᴜᴘ
-┃✾ 60 ʜᴀʀɪ 14ᴋ / ɢʀᴏᴜᴘ
-┃✾ ᴘᴇʀᴍᴀɴᴇɴ 30ᴋ / ɢʀᴏᴜᴘ 
+┃✾ 15 ʜᴀʀɪ 10ᴋ / ɢʀᴏᴜᴘ
+┃✾ 30 ʜᴀʀɪ 20ᴋ / ɢʀᴏᴜᴘ
+┃✾ 45 ʜᴀʀɪ 25ᴋ / ɢʀᴏᴜᴘ
+┃✾ 60 ʜᴀʀɪ 45ᴋ / ɢʀᴏᴜᴘ
+┃✾ ᴘᴇʀᴍᴀɴᴇɴ 50ᴋ / ɢʀᴏᴜᴘ 
 ┃
 ┗━━ꕥ *${author}* ꕥ━⬣
 
@@ -38,8 +38,8 @@ let text = `━━ꕥ〔 *𝚂𝙴𝚆𝙰 & 𝙿𝚁𝙴𝙼𝙸𝚄𝙼* 〕�
 ┗━━ꕥ *${author}* ꕥ━⬣
 `
 const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Klick untuk berlangganan', url: 'https://wa.me/6288279268363?text=Hallo admin, saya tertarik untuk menyewa bot yuki adisty'}},
-    {index: 4, quickReplyButton: {displayText: 'Owner', id: '.owner'}},
+    {index: 1, urlButton: {displayText: 'Klick untuk berlangganan', url: 'https://wa.me/6282146218274?text=Hallo admin, saya tertarik untuk menyewa bot Khurushi bot'}},
+    {index: 4, quickReplyButton: {displayText: 'OWNER', id: '.owner'}},
 ]
 let tm = {
 text: text,
