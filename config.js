@@ -27,32 +27,32 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
 
 /*============== INFO OWNER ==============*/
-global.sig = 'https://instagram.com/drak_ipul123'
+global.sig = 'https://instagram.com/_pahilz26'
 global.syt = 'https://youtu.be/pwLZpdfO8AU'
 global.sgh = 'https://github.com/SaipulAnuar'
 global.sgc = 'https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL'
-global.swa = 'wa.me/6288279268363'
+global.swa = 'wa.me/6287833306677'
 global.swb = 'https://'
 global.snh = 'https://nhentai.net/g/365296/' //Make ini aja gausah di ganti.
 
 /*============== PAYMENT ==============*/
-global.pdana = '082252724422'
+global.pdana = '087833306677'
 global.povo = '-'
 global.pgopay = '-'
-global.ppulsa = '083813417529'
+global.ppulsa = '087833306677'
 global.ppulsa2 = '-'
 global.psaweria = 'https://saweria.co/raraharsita2'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '083813417529'
-global.nomorown = '6282146218274'
-global.namebot = 'Khurushi-Mdラ'
-global.nameown = 'ᴹᴿ᭄ RiellXd ×፝֟͜×'
+global.nomorbot = '087852161042'
+global.nomorown = '6287833306677'
+global.namebot = 'Fahil-Botzラ'
+global.nameown = 'ᴹᴿ᭄ Fahil ×፝֟͜×'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282146218274', 'ᴹᴿ᭄ RiellXd ×፝֟͜×', 'true']
+  ['6287833306677', 'ᴹᴿ᭄ Fahil ×፝֟͜×', 'true']
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -96,14 +96,14 @@ global.APIKeys = { // APIKey Here
 }
 
 /*============== WATERMARK ==============*/
-global.wm = 'Khurushi-Mdラ | By ᴹᴿ᭄ RiellXd ×፝֟͜×' //Main Watermark
-global.wm2 = 'ᴹᴿ᭄ RiellXd ×፝֟͜×'
-global.wm3 = 'Khurushi-Mdラ | By ᴹᴿ᭄ RiellXd ×፝֟͜×'
+global.wm = 'Fahil-Botzラ | By ᴹᴿ᭄ Fahil ×፝֟͜×' //Main Watermark
+global.wm2 = 'ᴹᴿ᭄ Fahil ×፝֟͜×'
+global.wm3 = 'Wangsaf-Botzラ | By ᴹᴿ᭄ Fahil ×፝֟͜×'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `Khurushi-Mdラ | ʙʏ ${global.nameown}`
+global.titlebot = `Fahil-Botzラ | ʙʏ ${global.nameown}`
 global.author = 'ᴹᴿ᭄  RɪᴇʟʟXᴅ X Wᴀʜʏᴜ ᴀɴɪᴍᴇᴋ ×፝֟͜×' 
-global.packname = 'ᴹᴿ᭄ Dibuat oleh Riell X wahyu ×፝֟͜×'
+global.packname = 'ᴹᴿ᭄ Dibuat oleh Fahil X Botz ×፝֟͜×'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 
 
@@ -119,10 +119,10 @@ global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.botintro = 'Hallo, Kenalin saya Khurushi BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴹᴿ᭄  RɪᴇʟʟXᴅ X Wᴀʜʏᴜ ᴀɴɪᴍᴇᴋ ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'ᴹᴿ᭄ RiellXd ×፝֟͜×'
-global.umurowner = '16'
-global.asalowner = 'Kaltim, Tenggarong'
-global.nomorowner = 'wa.me/6282146218274'
+global.nameowner = 'ᴹᴿ᭄ Fahil ×፝֟͜×'
+global.umurowner = '18'
+global.asalowner = 'Jatim, Madura'
+global.nomorowner = 'wa.me/6287833306677'
 global.pacarowner = 'Kepo amat sih;v'
 
 /*============== TEXT ==============*/
