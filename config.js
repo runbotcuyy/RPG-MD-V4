@@ -102,7 +102,7 @@ global.wm3 = 'Wangsaf-Botzラ | By ᴹᴿ᭄ Fahil ×፝֟͜×'
 global.botdate = `⻝ 𝗗𝗮𝘁𝗲: ${week} ${date}\n⻝ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `⻝ 𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `Fahil-Botzラ | ʙʏ ${global.nameown}`
-global.author = 'ᴹᴿ᭄  Wangsaf Botz X By Fahil ×፝֟͜×' 
+global.author = 'ᴹᴿ᭄  By Fahil ×፝֟͜×' 
 global.packname = 'ᴹᴿ᭄ Wangsaf Bot ×፝֟͜×'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 
