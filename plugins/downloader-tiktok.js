@@ -1,22 +1,22 @@
-let fetch = require('node-fetch')
-let handler = async (m, { conn, args }) => {
-if (!args[0]) throw 'Uhm..url nya mana?'
-m.reply('tunggu')
-let res = await fetch(`https://botcahx.ddns.net/api/dowloader/tikok?url=${args[0]}`)
-if (!res.ok) throw await res.text()
-let json = await res.json()
-if (!json.status) throw json
-let { video, description, username } = json.result
-await conn.sendFile(m.chat, video, 'video.mp4', `
-\n💌 *Deskripsi*: ${description}
-\n\n📛 *Username*: ${username}
-\n\n🏢 *By*: Fahil
-`, m, false, { contextInfo: { forwardingScore: 999, isForwarded: true }})
+import axios from 'axios'
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    if (!args[0]) throw `contoh:\n ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
+    let res = (await axios.get(API('males', '/tiktok', { url: args[0] } ))).data;
+    if (res.status != 200) throw res.message;
+    if (!res) throw res.message;
+    
+    let result = `⟐⟞⟚⟝⟮ *Title:* ⟯⟞⟚⟝⟐
+┇⟣⟪ ${res.title} ⟫⟢
+▥ ━┉┄┄┈┈ ▢
+
+┇⟐⟞⟚⟝⟮ *Author* ⟯⟞⟚⟝⟐
+▥ ━┉┄┄┈┈ ▢
+${res.author}
+◈ ━┉┈┄┈┈ ►`
+    conn.sendButtonVid(m.chat, res.video, result, '_© Created by aldi_', `Audio`, `.gettt ${args[0]}`, m)
 }
-
-handler.help = ['tiktok <url>']
+handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
+handler.command = /^(tiktok|ttdl|tt|tiktokdl)$/i
 
-handler.command = /^(tt|tiktok)$/i
-handler.limit = true
-module.exports = handler
+export default handler
