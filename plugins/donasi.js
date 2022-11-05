@@ -1,6 +1,6 @@
 import fetch from 'node-fetch'
 
-//Plugin By Xynoz!!
+//Plugin By Fahil!!
 let handler = async (m, { conn, usedPrefix }) => {
   const ultah = new Date('November 4 2022 00:00:01')
     const sekarat = new Date().getTime() 
@@ -13,11 +13,11 @@ let handler = async (m, { conn, usedPrefix }) => {
   conn.sendButton(m.chat, `
 ┏━ꕥ〔 *Donasi • Dana* 〕ꕥ━⬣
 ┃✾ Gopay  [-]
-┃✾ Dana  [082252724422]
+┃✾ Dana  [087833306677]
 ┃✾ Saweria  [https://saweria.co/khurushi8]
 ┗━━━━ꕥ
 ┏━━ꕥ〔 *NOTE* 〕ꕥ━⬣
-┃ Ingin donasi? Wa.me/6282146218274
+┃ Ingin donasi? Wa.me/6287833306677
 ┃ _Hasil donasi akan digunakan buat sewa_
 ┃ _atau beli *RDP/VPS* agar bot bisa jalan_
 ┃ _24jam tanpa kendala_
