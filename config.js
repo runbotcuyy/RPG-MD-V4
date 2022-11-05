@@ -1,5 +1,3 @@
-
-
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
@@ -108,16 +106,16 @@ global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/df3dca9e1a9364db3abce.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/df3dca9e1a9364db3abce.jpg'
+global.thumb = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg'
 global.giflogo = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
-global.giflogo2 = 'https://telegra.ph/file/df3dca9e1a9364db3abce.jpg'
-global.thumbs = ['https://telegra.ph/file/df3dca9e1a9364db3abce.jpg']
+global.giflogo2 = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg'
+global.thumbs = ['https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya Khurushi BOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴹᴿ᭄  RɪᴇʟʟXᴅ X Wᴀʜʏᴜ ᴀɴɪᴍᴇᴋ ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumbBanned = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg'
+global.thumbWarn = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg'
+global.botintro = 'Hallo, Kenalin saya FAHIL BOTZ Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *ᴹᴿ᭄  Fahil ×፝֟͜×* Saya di rilis pada tanggal\n🗓 ️_16/10/2022_'
+global.intro = 'https://telegra.ph/file/3e5e612977f5bb3581e0a.jpg'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'ᴹᴿ᭄ Fahil ×፝֟͜×'
 global.umurowner = '18'
